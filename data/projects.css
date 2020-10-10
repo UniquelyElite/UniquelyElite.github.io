@@ -1,0 +1,29 @@
+
+#projects {
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    width: 95%;
+    height: 30%;
+    background-color: black;
+    color: white;
+}
+
+#mainContent {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
