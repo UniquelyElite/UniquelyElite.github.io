@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="projects.css" media="screen"/>
-    <title>Projects</title>
+    <link rel="stylesheet" type="text/css" href="projects.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="nav.css" media="screen">
+    <title>UniquelyElite</title>
 </head>
 <body>
-    <div id="content">
-        <div id="projects">
-            <div id="row1" class="nav"></div>
-            <div id="row2" class="nav"></div>
-            <div id="row3" class="nav"></div>
+    <nav>
+        <button type="button" class="navItem" onclick="home()">Home</button>
+        <button type="button" class="navItem" onclick="projects()">Projects</button>
+        <button type="button" class="navItem" onclick="">About Me</button>
+        <button type="button" class="navItem" onclick="contact()">Contact</button>
+    </nav>
+    <div class="wrapper">
+        <div class="project">
+            <p class="projectDesc">Choice Game</p>
+            <a href="https://uniquelyelite.github.io/choiceGame/" class="projectLink"><button class="projectImg" style="background-image: url(../images/Screenshot\ \(524\).png);" type="button"></button></a>
+        </div>
+        <div class="project">
+            <p class="projectDesc">Black Jack</p>
+            <a href="https://uniquelyelite.github.io/BlackJackCardGame/outline.html" class="projectLink"><button class="projectImg" style="background-image: url(../images/Screenshot\ \(525\).png);" type="button"></button></a>
+        </div>
+        <div class="project">
+            <p class="projectDesc">Name Generator</p>
+            <a href="https://uniquelyelite.github.io/NameGenerator/outlineforit.html" class="projectLink"><button class="projectImg" style="background-image: url(../images/Screenshot\ \(526\).png);" type="button"></button></a>
         </div>
     </div>
+        
 </body>
+<script src="nav.js"></script>
 </html>

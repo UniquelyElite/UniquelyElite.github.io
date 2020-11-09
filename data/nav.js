@@ -3,13 +3,13 @@ function contact(){
 }
 
 function projects(){
-    window.location = "data/projects.html";
+    window.location = "projects.html";
 }
 
 function aboutMe(){
-    window.location = "data/aboutMe.html";
+    window.location = "aboutMe.html";
 }
 
 function home(){
-    window.location = "index.html"
+    window.location = "../index.html"
 }

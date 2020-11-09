@@ -1,29 +1,34 @@
-
-#projects {
-    width: 100vw;
-    height: 100vh;
-    background-color: purple;
+.wrapper {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 }
 
-body {
+.project {
+    border-color: purple;
+    background-color: black;
+    border-width: 2vw;
+    width: calc(100% - 4vw);
+    height: calc(100vh - 100px);
+    border-style: solid;
     margin: 0;
 }
-
-.nav {
-    width: 95%;
-    height: 30%;
+.projectImg {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50%;
+    width: 100%;
     background-color: black;
-    color: white;
 }
 
-#mainContent {
-    width: 90vw;
-    height: 100vh;
+.projectDesc {
+    color: purple;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50%;
+    width: 100%;
+    font-size: 6vw;
+    margin: 0;
 }
