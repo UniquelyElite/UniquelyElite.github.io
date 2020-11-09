@@ -10,7 +10,7 @@ nav {
     top: 0;
     width: 100%;
     height: 100px;
-    background-color: white;
+    background-color: #000F08;
 }
 
 .navItem {
@@ -18,6 +18,6 @@ nav {
     height: 100%;
     font-size: 5vw;
     border: none;
-    background-color: black;
-    color: purple;
+    background-color: #000F08;
+    color: #136F63;
 }

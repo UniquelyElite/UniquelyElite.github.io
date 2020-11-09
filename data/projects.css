@@ -5,7 +5,7 @@
 }
 
 .project {
-    border-color: purple;
+    border-color: black;
     background-color: black;
     border-width: 2vw;
     width: calc(100% - 4vw);
@@ -19,11 +19,11 @@
     background-size: contain;
     height: 50%;
     width: 100%;
-    background-color: black;
+    background-color: #0E4749;
 }
 
 .projectDesc {
-    color: purple;
+    color: #95C623;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,4 +31,5 @@
     width: 100%;
     font-size: 6vw;
     margin: 0;
+    background-color: #0E4749;
 }
