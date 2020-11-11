@@ -1,4 +1,14 @@
 .wrapper {
     height: calc(100vh - 100px);
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDesc {
+    color: #95C623;
+    text-align: center;
+    height: 50%;
+    width: 50%;
 }

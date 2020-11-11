@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    background-color: white;
+    background-color: black;
+    background-image: linear-gradient(to bottom, black, #0E4749);
 }
 
 nav {
@@ -19,5 +20,14 @@ nav {
     font-size: 5vw;
     border: none;
     background-color: #000F08;
-    color: #136F63;
+    color: #95C623;
+}
+
+.navItem:hover {
+    width: calc(100vw/3);
+    height: 100%;
+    font-size: 5vw;
+    border: none;
+    background-color: #95C623;
+    color: #000F08;
 }

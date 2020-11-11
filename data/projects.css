@@ -5,21 +5,19 @@
 }
 
 .project {
-    border-color: black;
-    background-color: black;
-    border-width: 2vw;
     width: calc(100% - 4vw);
     height: calc(100vh - 100px);
-    border-style: solid;
     margin: 0;
+
+
 }
 .projectImg {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 50%;
-    width: 100%;
-    background-color: #0E4749;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .projectDesc {
@@ -31,5 +29,4 @@
     width: 100%;
     font-size: 6vw;
     margin: 0;
-    background-color: #0E4749;
 }
