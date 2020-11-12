@@ -1,11 +1,12 @@
 * {
     cursor: crosshair;
 }
+
 body {
     margin: 0;
     background-color: black;
     background-image: linear-gradient(to bottom, black, #0E4749);
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
@@ -25,6 +26,15 @@ nav {
     border: none;
     background-color: #000F08;
     color: #95C623;
+}
+.navItem:focus {
+    width: calc(100vw/3);
+    height: 100%;
+    font-size: 5vw;
+    border: none;
+    background-color: #000F08;
+    color: #95C623;
+    outline: none;
 }
 
 .navItem:hover {
