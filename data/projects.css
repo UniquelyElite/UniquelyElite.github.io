@@ -8,9 +8,8 @@
     width: calc(100% - 4vw);
     height: calc(100vh - 100px);
     margin: 0;
-
-
 }
+
 .projectImg {
     background-repeat: no-repeat;
     background-position: center;
