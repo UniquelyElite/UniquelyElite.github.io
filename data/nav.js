@@ -11,5 +11,5 @@ function aboutMe(){
 }
 
 function home(){
-    window.location = "../index.html"
+    window.location = "index.html"
 }

@@ -1,15 +1,10 @@
-function contact(){
-    window.open('mailto:test@example.com');
+function heresTheActualPage(){
+    window.location = "data/index.html"
 }
 
-function projects(){
-    window.location = "data/projects.html";
+function ohNo() {
+    clearTimeout(theCountHasBegun);
+    window.location = "data/youFuckedUp/welp.html"
 }
 
-function aboutMe(){
-    window.location = "data/aboutMe.html";
-}
-
-function home(){
-    window.location = "index.html"
-}
+let theCountHasBegun = setTimeout(heresTheActualPage, 2000);

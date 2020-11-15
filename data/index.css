@@ -1,0 +1,10 @@
+.headingthingy {
+    font-size: 10vw;
+    height: calc(100vh - 100px);
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #95C623;
+}
