@@ -10,4 +10,5 @@ body {
 #text {
     color: lightgreen;
     white-space: pre-wrap;
+    font-size: 4vh;
 }
