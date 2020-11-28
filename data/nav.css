@@ -1,45 +1,94 @@
-* {
-    cursor: crosshair;
-}
+@media only screen and (orientation: landscape) {
+    * {
+        cursor: crosshair;
+    }
 
-body {
-    margin: 0;
-    background-color: black;
-    background-image: linear-gradient(to bottom, black, #0E4749);
-    height: 100vh;
-    width: 100vw;
-}
+    body {
+        margin: 0;
+        background-color: black;
+        background-image: linear-gradient(to bottom, black, #0E4749);
+        height: 100vh;
+        width: 100vw;
+    }
 
-nav {
-    position: absolute;
-    display: flex;
-    top: 0;
-    background-color: #000F08;
-    z-index: 3;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-}
+    nav {
+        position: absolute;
+        display: flex;
+        top: 0;
+        background-color: #000F08;
+        z-index: 3;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
 
-.navItem,
-.navItem:focus {
-    padding: 0;
-    width: calc(100vw/4);
-    font-size: 4vw;
-    height: 5vw;
-    text-align: center;
-    border: none;
-    background-color: #000F08;
-    color: #95C623;
-}
+    .navItem,
+    .navItem:focus {
+        padding: 0;
+        width: calc(100vw/4);
+        font-size: 4vw;
+        height: 5vw;
+        text-align: center;
+        border: none;
+        background-color: #000F08;
+        color: #95C623;
+    }
 
-.navItem:hover {
-    padding: 0;
-    width: calc(100vw/4);
-    font-size: 4vw;
-    height: 5vw;
-    text-align: center;
-    border: none;
-    background-color: #95C623;
-    color: #000F08;
+    .navItem:hover {
+        padding: 0;
+        width: calc(100vw/4);
+        font-size: 4vw;
+        height: 5vw;
+        text-align: center;
+        border: none;
+        background-color: #95C623;
+        color: #000F08;
+    }
+}
+@media only screen and (orientation: portrait) {
+    * {
+        cursor: crosshair;
+    }
+
+    body {
+        margin: 0;
+        background-color: black;
+        background-image: linear-gradient(to bottom, black, #0E4749);
+        height: 100vh;
+        width: 100vw;
+    }
+
+    nav {
+        position: absolute;
+        display: flex;
+        top: 0;
+        background-color: #000F08;
+        z-index: 3;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .navItem,
+    .navItem:focus {
+        padding: 0;
+        width: calc(100vw/4);
+        font-size: 3vh;
+        height: 5vh;
+        text-align: center;
+        border: none;
+        background-color: #000F08;
+        color: #95C623;
+    }
+
+    .navItem:hover {
+        padding: 0;
+        width: calc(100vw/4);
+        font-size: 3vh;
+        height: 5vh;
+        text-align: center;
+        border: none;
+        background-color: #95C623;
+        color: #000F08;
+    }
 }

@@ -1,14 +1,32 @@
-.wrapper {
-    height: calc(100vh - 5vw);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@media only screen and (orientation: landscape) {
+    .wrapper {
+        height: calc(100vh - 5vw);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.mainDesc {
-    color: #95C623;
-    text-align: center;
-    font-size: 3vw;
-    width: 50vw;
+    .mainDesc {
+        color: #95C623;
+        text-align: center;
+        font-size: 3vw;
+        width: 50vw;
+    }
+}
+@media only screen and (orientation: portrait) {
+    .wrapper {
+        height: calc(100vh - 5vw);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainDesc {
+        color: #95C623;
+        text-align: center;
+        font-size: 3vh;
+        width: 75vw;
+    }
 }
