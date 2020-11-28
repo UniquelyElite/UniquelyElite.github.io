@@ -11,6 +11,9 @@ body {
     flex-direction: column;
 }
 .contact {
-    color: white;
+    color: #95C623;
     font-size: 3vw;
+}
+:any-link {
+    color: #adf010;
 }
