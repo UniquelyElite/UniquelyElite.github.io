@@ -1,6 +1,6 @@
 //Specifys what the nav buttons do
 function contact(){
-    window.open('mailto:test@example.com');
+    window.location = "contact.html";
 }
 
 function projects(){

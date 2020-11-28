@@ -1,7 +1,7 @@
 # UniquelyElite's Homepage
 
 ## Live site
-[Live Site Here](https://uniquelyelite.github.io/home/index.html)
+[Live Site Here](https://uniquelyelite.github.io/)
 
 ## Info
 

@@ -1,0 +1,16 @@
+body {
+    overflow: hidden;
+}
+#wrapper {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 5vw);
+    flex-direction: column;
+}
+.contact {
+    color: white;
+    font-size: 3vw;
+}
