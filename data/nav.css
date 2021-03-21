@@ -71,24 +71,9 @@
 
     .navItem,
     .navItem:focus {
-        padding: 0;
-        width: calc(100vw/4);
-        font-size: 3vh;
-        height: 5vh;
-        text-align: center;
-        border: none;
-        background-color: #000F08;
-        color: #95C623;
+        display: none;
     }
-
-    .navItem:hover {
-        padding: 0;
-        width: calc(100vw/4);
-        font-size: 3vh;
-        height: 5vh;
-        text-align: center;
-        border: none;
-        background-color: #95C623;
-        color: #000F08;
+    #phoneButton {
+        background-image: url(../images/);
     }
 }
